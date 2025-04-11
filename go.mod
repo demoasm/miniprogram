@@ -1,6 +1,6 @@
 module github.com/cloudwego/hertz-examples/bizdemo/hertz_gorm
 
-go 1.23.7
+go 1.21
 
 replace github.com/apache/thrift => github.com/apache/thrift v0.13.0
 
