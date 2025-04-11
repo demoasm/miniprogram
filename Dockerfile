@@ -16,7 +16,6 @@
 # 第二阶段：编译代码
 FROM golang:1.21 AS builder
 WORKDIR /build
-COPY --from=git-clone /app/miniprogress /build
 
 ENV GOPROXY=https://goproxy.cn,direct
 ENV GOSUMDB=sum.golang.org
